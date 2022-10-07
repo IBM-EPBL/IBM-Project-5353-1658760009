@@ -1,0 +1,24 @@
+                                                                   ASSIGNMENT-3
+                                                   PYTHON PROGRAMMING
+Assignment Date	08 Oct. 2022
+Student Name	Vaishali S
+Student Roll Number	910019106047
+Maximum mark	2 mark
+
+Write python code for blinking LED and Traffic lights for Raspberry pi.
+Solution
+from gpiozero import TrafficLights
+from time import sleep
+lights=TrafficLights(25,8,7)
+while True:
+	light.green.on()
+	sleep(1)
+	light.amber.on()
+	sleep(1)
+	light.red.on()
+	sleep(1)
+	light.green.off()
+	sleep(1)
+	light.amber.off()
+	sleep()
+          light red.off()
